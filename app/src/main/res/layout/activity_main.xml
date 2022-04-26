@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1. Digunakan untuk membuat FrameLayout
+     2. Match parent digunakan untuk penyesuaian tinggi dan lebar dari suatu tampilan
+     yang sama dengan lebar dan tinggi layar smartphone android,-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!-- 1. Digunakan memiliki satu tampilan turunan yaitu RecyclerView,
+     2. Match parent digunakan untuk penyesuaian tinggi dan lebar dari suatu tampilan
+     yang sama dengan lebar dan tinggi layar smartphone android,
+     3. Digunakan untuk dapat scroll daftar item yang lebih panjang dari layar secara vertikal
+     4. Digunakan untuk pengelola tata letak pada layout, -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager" />
+</FrameLayout>

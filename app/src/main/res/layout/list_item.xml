@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Digunakan untuk :
+    1. Membuat ID
+    2. Mengatur untuk penyesuaian tinggi dan lebar dari suatu tampilan
+       yang sama dengan lebar dan tinggi layar smartphone android
+    3. Mengatur Background
+    4. Mengatur padding
+    5. Mengatur warna teks
+    6. Mengatur ukuran teks
+    7. Mengatur style teks-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:background="#DEB887"
+    android:padding="8dp"
+    android:textColor="#D2691E"
+    android:textSize="22sp"
+    android:textStyle="bold">
+</TextView>
+
